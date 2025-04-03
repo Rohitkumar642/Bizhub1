@@ -1,0 +1,128 @@
+body {font-weight: 400; font-family: 'Open Sans', sans-serif;}
+p {color: #000; line-height: 24px; font-size: 14px;}
+ul {padding:0; margin:0;}
+a {-webkit-transition: all .6s ease-in; -moz-transition: all .6s ease-out; -o-transition: all .6s ease-out; transition: all .6s ease-out;}
+.justify {text-align:justify;}
+
+.lendsocial-new-investment-menu.header-1 {background: rgb(255,255,255);}
+.lendsocial-new-investment-menu {border:none;}
+.lendsocial-new-investment-menu .header-navigation.navbar {background: rgb(255,255,255); border-bottom: 1px solid #f2f2f2;}
+.lendsocial-new-investment-menu .header-navigation.navbar .nav > li {padding: 0;}
+.lendsocial-new-investment-menu .header-navigation.navbar .nav > li > a {font-size: 15px; color:#000; font-weight:600;}
+.lendsocial-new-investment-menu .header-navigation.navbar .nav > li a:hover {color: #5B3583;}
+.lendsocial-new-investment-menu .stricky-fixed.header-navigation.navbar .nav > li {padding:0;}
+.lendsocial-new-investment-menu .header-navigation.navbar > .container .navbar-brand, .investment-menu .header-navigation.navbar > .container-fluid .navbar-brand {line-height: 69px; height:auto; padding:0;}
+.navbar {position: relative; padding:15px; min-height: auto; margin-bottom: 0;}
+#main-nav-bar {float:right;}
+.navbar-brand > img {margin-top:4px;}
+.lendsocial-new-investment-menu .header-navigation.navbar .nav > li .nav-btn {border:2px solid #5b3583; border-radius:6px; color:#5b3583!important; padding: 10px 30px!important; margin-top: 2px; margin-left:10px;}
+.lendsocial-new-investment-menu .header-navigation.navbar .nav > li .nav-btn:hover {background-color:#5b3583; color:#fff!important;}
+.lendsocial-new-investment-banr img {width:100%;}
+.lendsocial-new-btn-register {padding:15px 30px; background:#5b3583; color:#fff;}
+.lendsocial-new-btn-register:hover {background:#471b75; color:#fff;}
+.lendsocial-new-howitwork {padding:80px 0; background:#fff;}
+.lendsocial-new-hd {font-size:42px; color:#000; font-weight:800;}
+.lendsocial-new-subhd {font-size:16px; color:#000; margin-bottom:60px;}
+.lendsocial-new-subhd span {display:block;}
+.icon-box {background:#fff; box-shadow:1px 4px 6px 2px #f2f2f2; text-align:center; padding:30px 20px; min-height:190px; margin-bottom:30px; border: 1px solid #f2f2f2;}
+.icon-box p {margin-top:15px; color:#5b3583; font-size:18px; font-weight:600; line-height:18px;}
+.icon-box span {display:block;}
+.borrower-bg {background: url("../img/borrower-bg.png"); background-size: cover; padding:60px 0;}
+.borrow-boxlist {background:#fff; border:2px solid #5b3583; border-radius:10px; padding:50px 60px;}
+.borrow-boxlist-scheme {margin-bottom:30px;}
+.borrow-boxlist-hd {font-size:30px; font-weight:bold;}
+.borrow-boxlist-subhd {font-size:24px; line-height:30px;}
+.borrow-boxlist-listhd {font-size:16px; text-transform:uppercase; font-weight:bold; border-top:1px solid #e8e8e8; padding-top:15px; margin-top:30px;}
+.borrow-boxlist-keys li {display:block; font-size:16px; padding:10px 10px 10px 30px; position:relative;}
+.borrow-boxlist-keys li:before {position:absolute; font-family:FontAwesome; color:#5b3583; content: "\f058"; left:10px;}
+.btn-borrow-boxlist {width:100%; display:block; border:2px solid #5b3583; text-align:center; background:#5b3583; margin-top:15px; color:#fff; padding:15px; border-radius:6px;}
+.btn-borrow-boxlist:hover {color:#5b3583; background:transparent; text-decoration:none;}
+.btn-browse-more {display:inline-block; border:2px solid #5b3583; text-align:center; background:#5b3583; margin-top:30px; color:#fff; padding:15px 60px; border-radius:6px;}
+.btn-browse-more:hover {color:#5b3583; background:transparent; text-decoration:none;}
+.lending-bg {background: url("../img/lending-bg.png"); background-size: cover; padding:60px 0;}
+.lending-boxlist {background:#f6effd; border:1px solid #5b3583; border-radius:10px; padding:40px 20px; text-align:center;}
+.lending-boxlist-hd {font-size:24px; font-weight:bold;}
+.lending-boxlist-key {font-size:18px; color:#8c8c8c; line-height:20px; padding:10px 0;}
+.lending-boxlist-key span {color:#000; font-weight:bold; display:block;}
+.lending-boxlist-para {color:#8c8c8c; font-size:16px; line-height:18px;}
+.btn-lending-boxlist {display:inline-block; border:2px solid #5b3583; text-align:center; background:#5b3583; margin-top:20px; color:#fff; padding:15px 30px; border-radius:6px;}
+.btn-lending-boxlist:hover {color:#5b3583; background:transparent; text-decoration:none;}
+.lendsocial-new-testimonial {background: #f4f8fa; padding:60px 0;}
+.lendsocial-new-testimonials .item {text-align:center; padding-top:50px; padding-bottom:10px; width:80%; margin-left:10%;}
+.lendsocial-new-testimonials img {max-width:100px; margin-bottom:30px; display:inline-block !important;}
+.para-testimonials {font-size:24px; color:#353535; line-height:36px;}
+.quote-testimonials {max-width:28px; margin-top:50px; display:inline-block !important;}
+.name-testimonials {font-size:24px; color:#353535; font-weight:bold;}
+.lendsocial-new-testimonials .owl-dots .owl-dot span {background:transparent; border:2px solid #5b3583;}
+.lendsocial-new-testimonials .owl-dots .owl-dot.active span, .lendsocial-new-testimonials .owl-dots .owl-dot:hover span {background:#5b3583; border:2px solid #5b3583;}
+/* Scheme */
+.lending-scheme-bg {background:#fff; padding:60px 0;}
+.lending-scheme-boxlist {width: 100%; float: left; background:#f6effd; border:1px solid #5b3583; margin-bottom:30px; border-radius:10px; padding:40px 30px;}
+.lending-scheme-boxlist-hd {font-size:30px; font-weight:bold; margin-bottom: 25px;}
+.lending-scheme-boxlist-key {width: 45%; float: left; text-align:center; font-size:16px; color:#8c8c8c; line-height:20px; padding:10px 0;}
+.lending-scheme-boxlist-key:nth-child(odd) {width: 50%; margin-right: 5%;}
+.lending-scheme-boxlist-key span {color:#000; font-weight:bold; display:block;}
+.lending-scheme-boxlist-para {width: 100%; float: left; color:#8c8c8c; font-size:16px; line-height:18px;}
+.btn-lending-scheme-boxlist {width: 100%; float: left; border:2px solid #5b3583; text-align:center; background:#5b3583; margin-top:20px; color:#fff; padding:15px 30px; border-radius:6px;}
+.btn-lending-scheme-boxlist:hover {color:#5b3583; background:transparent; text-decoration:none;}
+.lending-scheme-detaillist {width: 100%; float: left; background:#f6effd; border:1px solid #5b3583; margin-bottom:30px; border-radius:10px; padding:40px 30px;}
+.lending-scheme-detaillist-key {width: 25%; float: left; text-align:center; font-size:16px; color:#8c8c8c; line-height:20px; padding:10px 0;}
+.lending-scheme-detaillist-key span {color:#000; font-weight:bold; display:block;}
+.lending-scheme-boxlist-para strong {color:#000;}
+.btn-lending-scheme-detaillist {width: 200px; float: right; border:2px solid #5b3583; text-align:center; background:#5b3583; margin-top:20px; color:#fff; padding:15px 30px; border-radius:6px;}
+.btn-lending-scheme-detaillist:hover {color:#5b3583; background:transparent; text-decoration:none;}
+#lending-programs .item img {width:auto; display:inline-block;}
+.lendsocial-inner-banr {background: url("../img/lendsocial-details-banr.png"); background-size: cover; padding:68px 0;}
+.lendsocial-inner-banr h2 {font-size: 30px; color:#fff; font-weight: bold;}
+
+/* Scheme End*/
+
+
+/*Footer*/
+footer {background:#38363c; padding:50px 0 10px 0;}
+.fotr-logo {margin-bottom:50px;}
+.lendsocial-new-fotr h4 {color:#fff; font-weight:bold;}
+.lendsocial-new-usefullinks {-moz-column-count: 2; -moz-column-gap: 20px; -webkit-column-count: 2; -webkit-column-gap: 20px; column-count: 2;  column-gap: 20px;}
+.lendsocial-new-usefullinks li {display:block; padding:5px 10px 5px 0;}
+.lendsocial-new-usefullinks li a {color:#979797; display:inline-block;}
+.lendsocial-new-social li {display:block; padding:5px 10px 5px 0;}
+.lendsocial-new-social li a {color:#979797; display:inline-block;}
+.lendsocial-new-sociallinks li {display:inline-block; padding:5px 10px 5px 0;}
+.lendsocial-new-sociallinks li a {color:#979797; font-size:18px; display:block; padding:7px 10px;}
+.disclaim {font-size:12px; color:#ccc; padding:30px 0; border-bottom:1px solid #535257;}
+.rights p {color:#979797;}
+/*End Footer*/
+
+@media(max-width:767px){
+.navbar-brand {padding: 15px 0 0 0; height:auto; line-height:0;}
+#main-nav-bar {float:left;}
+.lendsocial-new-investment-menu .navbar-nav > li > a {color: #7564e5;}
+.lendsocial-new-investment-menu .navbar-toggle {color: #7564e5;}
+.lendsocial-new-investment-menu .header-navigation.navbar .nav > li > a {font-size: 16px; font-weight:800; text-transform: uppercase; padding: 7px 15px; margin-top: 7px; transition: all 0.3s ease;}
+.lendsocial-new-investment-menu .navbar-toggle {border: none; padding: 0; color: #fff; font-size: 20px;}
+.lendsocial-new-investment-menu .navbar-toggle:focus, .lendsocial-new-investment-menu .navbar-toggle:hover {background-color: transparent;}
+.navbar-brand img {width:160px; margin:0;}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {border-color:transparent;}
+.lendsocial-new-howitwork, .borrower-bg, .lending-bg, .lendsocial-new-testimonial {padding: 20px 0;}
+.lendsocial-new-hd {font-size: 24px;}
+.lendsocial-new-subhd {font-size: 14px; line-height: 18px; margin-bottom: 30px;}
+.icon-box p {font-size: 14px;}
+.borrow-boxlist, .lending-boxlist {padding: 20px 20px; margin-bottom:20px;}
+.borrow-boxlist-scheme {margin-bottom: 0;}
+.borrow-boxlist-hd {font-size: 24px;}
+.borrow-boxlist-subhd {font-size: 16px; line-height: 24px;}
+.btn-browse-more {margin-top: 10px;}
+.para-testimonials {font-size: 14px; line-height: 24px;}
+.quote-testimonials {margin-top: 10px; line-height: 10px; height: 0;}
+.name-testimonials {margin-top: 10px; line-height: 18px;}
+.lending-scheme-boxlist-key {width: 100%; text-align:left; padding: 0;}
+.lending-scheme-boxlist-key:nth-child(odd) {width: 100%; margin-right: 0%;}
+.lending-scheme-boxlist-key span {margin-top:5px;}
+.lending-scheme-boxlist-hd {font-size:20px;}
+.lending-scheme-detaillist-key {width: 100%; text-align: left;}
+.lending-scheme-detaillist-key span {padding-top:5px; font-size:18px; font-weight:400;}
+.lending-scheme-boxlist-para {line-height: 24px;}
+
+}
+
+
