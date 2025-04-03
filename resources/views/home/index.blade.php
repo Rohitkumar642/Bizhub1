@@ -48,13 +48,13 @@
                         <div class="collapse navbar-collapse show" id="navbarSupportedContent">
                            <ul class="navigation">
                               <li id="menu-item-21" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home current-menu-ancestor current-menu-parent menu-item-has-children menu-item-21">
-                                 <a title="Home" href="#" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll="" data-options="easing: easeOutQuart">Home</a>
+                                 <a title="Home" href="{{ route('home') }}" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll="" data-options="easing: easeOutQuart">Home</a>
                               </li>
-                              <li id="menu-item-998" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-998"><a title="About Us" href="#" class="hvr-underline-from-left1" data-scroll="" data-options="easing: easeOutQuart">About Us</a></li>
+                              <li id="menu-item-998" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-998"><a title="About Us" href="{{ route('about') }}" class="hvr-underline-from-left1" data-scroll="" data-options="easing: easeOutQuart">About Us</a></li>
                               <li id="menu-item-30" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-30">
-                                 <a title="Services" href="#" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll="" data-options="easing: easeOutQuart">Services</a>
+                                 <a title="Services" href="{{ route('services') }}" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll="" data-options="easing: easeOutQuart">Services</a>
                               </li>
-                              <li id="menu-item-1399" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1399"><a title="Contact Us" href="#" class="hvr-underline-from-left1" data-scroll="" data-options="easing: easeOutQuart">Contact Us</a></li>
+                              <li id="menu-item-1399" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1399"><a title="Contact Us" href="{{ route('contact') }}" class="hvr-underline-from-left1" data-scroll="" data-options="easing: easeOutQuart">Contact Us</a></li>
                               <li id="menu-item-32" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-32 dropdown">
                                  <a title="Login" href="#" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll="" data-options="easing: easeOutQuart">Login</a>
                                  <ul role="menu" class="submenu">
@@ -686,7 +686,6 @@
          $(document).ready(function() {
     
             $("#mc4wp-form-3").submit(function (e) {
-               alert('hello');
                e.preventDefault();
                let formData = $(this).serialize();
 

@@ -10,6 +10,7 @@ use App\Http\Controllers\SubscriberController;
 use App\Http\Controllers\AdminLoginController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\AdminEditController;
+use App\Http\Controllers\MessageController;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,7 +25,23 @@ use App\Http\Controllers\AdminEditController;
 
 Route::get('', function() {
     return view('home.index');
-});
+})->name('default');
+
+Route::get('/about', function() {
+    return view('home.about-us');
+})->name('about');
+
+Route::get('/contact', function() {
+    return view('home.contact-us');
+})->name('contact');
+
+Route::get('/services', function() {
+    return view('home.services');
+})->name('services');
+
+Route::get('/faq', function() {
+    return view('home.faq');
+})->name('faq');
 
 Route::get('/login', function () {
     return view('user.login');
@@ -91,3 +108,4 @@ Route::post('/admin/reset-password', [AdminLoginController::class, 'resetPasswor
 
 
 Route::get('/unsubscribe/{email}', [SubscriberController::class, 'delete']);
+Route::post('/send-message', [MessageController::class, 'store'])->name('send.message');
