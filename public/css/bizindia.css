@@ -927,6 +927,8 @@ width: 4px; height: 30px; background: #000; border-radius: 3px; transition: all 
 .icon .icon-shape.active::before {transform: translate(-50%, -50%) rotate(180deg); transition: all 0.5s ease;}
 .icon .icon-shape.active::after {transform: translate(-50%, -50%) rotate(90deg); transition: all 0.5s ease;}
 .faq-list li {display:block; font-size: 16px; line-height: 28px; color:#0D0D0D; margin-top:5px;}
+.morefaq {max-width: 850px; width: 100%; margin:0 auto; margin-top: 30px; margin-bottom: 10px;}
+.morefaq p {font-style:italic; color: #c33;}
 /*FAQ*/
 
 /*** ================== Main Footer =================== ***/

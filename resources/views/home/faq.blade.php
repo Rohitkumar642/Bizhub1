@@ -48,20 +48,20 @@
 				<div class="collapse navbar-collapse show" id="navbarSupportedContent">
 				   <ul class="navigation">
 					  <li id="menu-item-21" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home current-menu-ancestor current-menu-parent menu-item-has-children menu-item-21">
-						 <a title="Home" href="{{ route('default') }}" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll="" data-options="easing: easeOutQuart">Home</a>
+						 <a title="Home" href="{{route('default')}}" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll="" data-options="easing: easeOutQuart">Home</a>
 					  </li>
-					  <li id="menu-item-998" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-998"><a title="About Us" href="{{ route('about') }}" class="hvr-underline-from-left1" data-scroll="" data-options="easing: easeOutQuart">About Us</a></li>
+					  <li id="menu-item-998" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-998"><a title="About Us" href="{{route('about')}}" class="hvr-underline-from-left1" data-scroll="" data-options="easing: easeOutQuart">About Us</a></li>
 					  <li id="menu-item-30" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-30">
-						 <a title="Services" href="{{ route('services') }}" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll="" data-options="easing: easeOutQuart">Services</a>
+						 <a title="Services" href="{{route('services')}}" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll="" data-options="easing: easeOutQuart">Services</a>
 					  </li>
 					  <li id="menu-item-32" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-32 dropdown">
 						 <a title="Pages" href="#" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll="" data-options="easing: easeOutQuart">Pages</a>
 						 <ul role="menu" class="submenu">
-							<li id="menu-item-1142" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1142"><a title="Faqs" href="{{ route('faq') }}">Faqs</a></li>
+							<li id="menu-item-1142" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1142"><a title="Faqs" href="{{route('faq')}}">Faqs</a></li>
 							<li id="menu-item-1523" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1523"><a title="Pricing Plans" href="#">Pricing Plans</a></li>
 						 </ul>
 					  </li>
-					  <li id="menu-item-1399" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1399"><a title="Contact Us" href="{{ route('contact') }}" class="hvr-underline-from-left1" data-scroll="" data-options="easing: easeOutQuart">Contact Us</a></li>
+					  <li id="menu-item-1399" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1399"><a title="Contact Us" href="{{route('contact')}}" class="hvr-underline-from-left1" data-scroll="" data-options="easing: easeOutQuart">Contact Us</a></li>
 				   </ul>
 				</div>
 			 </nav>
@@ -148,8 +148,7 @@
 				</div>
 				<div class="answercont">
 				  <div class="answer">
-					<p>
-						<strong>Bizhub India provides a centralized platform where businesses can:</strong>
+					<p><strong>Bizhub India provides a centralized platform where businesses can:</strong></p>
 						<ul class="faq-list">
 							<li>✔ Register as a Buyer, Seller, or Vendor</li>
 							<li>✔ Search & Connect with Verified Suppliers</li>
@@ -157,7 +156,6 @@
 							<li>✔ Use Credit-Based Transactions & Financing</li>
 							<li>✔ Manage Orders with Automated Invoicing & Inventory Solutions</li>
 						</ul>
-					</p>
 				  </div>
 				</div>
 			</div>
@@ -172,12 +170,12 @@
 				</div>
 				<div class="answercont">
 				  <div class="answer">
-					<p>
-					Bizhub India is designed for:
-					Manufacturers & Wholesalers looking to sell in bulk
-					Retailers & Businesses sourcing wholesale products
-					Distributors & Resellers seeking trusted suppliers
-					</p>
+					<p><strong>Bizhub India is designed for:</strong></p>
+						<ul class="faq-list">
+							<li>✔ Manufacturers & Wholesalers looking to sell in bulk</li>
+							<li>✔ Retailers & Businesses sourcing wholesale products</li>
+							<li>✔ Distributors & Resellers seeking trusted suppliers</li>
+						</ul>
 				  </div>
 				</div>
 			</div>
@@ -226,12 +224,12 @@
 			</div>
 			<div class="answercont">
 			  <div class="answer">
-				<p>
-				Yes! We provide business financing solutions including:
-				✔ Credit-based transactions for eligible buyers
-				✔ Creditworthiness assessment for secure payments
-				✔ Flexible financing options to help businesses grow
-				</p>
+				<p><strong>Yes! We provide business financing solutions including:</strong></p>
+				<ul class="faq-list">
+					<li>✔ Credit-based transactions for eligible buyers</li>
+					<li>✔ Creditworthiness assessment for secure payments</li>
+					<li>✔ Flexible financing options to help businesses grow</li>
+				</ul>
 			  </div>
 			</div>
 		  </div>
@@ -247,12 +245,12 @@
 			</div>
 			<div class="answercont">
 			  <div class="answer">
-				<p>
-				Bizhub India ensures safe and secure transactions through:
-				🔹 Verified Vendor Listings
-				🔹 Secure Payment Options
-				🔹 Protected Buyer & Seller Agreements
-				</p>
+				<p><strong>Bizhub India ensures safe and secure transactions through:</strong></p>
+				<ul class="faq-list">
+					<li>✔ Verified Vendor Listings</li>
+					<li>✔ Secure Payment Options</li>
+					<li>✔ Protected Buyer & Seller Agreements</li>
+				</ul>
 			  </div>
 			</div>
 		  </div>
@@ -304,14 +302,13 @@
 			</div>
 			<div class="answercont">
 			  <div class="answer">
-				<p>
-				Bizhub India provides secure chat & call features so you can directly communicate with vendors and finalize your deals in real-time.
-				</p>
-				<p>
-					<strong>Have more questions? Contact us today & grow your business with Bizhub India!</strong>
-				</p>
+				<p>Bizhub India provides secure chat & call features so you can directly communicate with vendors and finalize your deals in real-time.</p>
+				
 			  </div>
 			</div>
+		  </div>
+		  <div class="morefaq">
+			<p><strong>Have more questions? Contact us today & grow your business with Bizhub India!</strong></p>
 		  </div>
 		  
 		  

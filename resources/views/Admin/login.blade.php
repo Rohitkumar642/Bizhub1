@@ -28,7 +28,7 @@
                     <a href="#" title="Bizhub India"><img src="img/bizhub-india-logo.png" alt="logo" style=""></a>                        
                 </figure>
             </div>
-            <h3 class="text-center mb-3">Admin Login</h3>
+            <h4 class="text-center mb-3">Admin Login</h4>
 
             @if(session('error'))
                 <div class="alert alert-danger">{{ session('error') }}</div>

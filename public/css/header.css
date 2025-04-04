@@ -278,7 +278,7 @@ nav.main-menu{
 .main-menu .navigation > li > ul,
 .main-menu .navigation > li > .megamenu{
     position: absolute;
-    left: 0;
+    right: 0;
     top: 100%;
     width: 220px;
     margin-top: 5px;
